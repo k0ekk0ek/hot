@@ -5,6 +5,8 @@
 #include <bitset>
 #include <immintrin.h>
 #include <iostream>
+#include <cstdint>
+#include <array>
 
 namespace hot { namespace commons {
 

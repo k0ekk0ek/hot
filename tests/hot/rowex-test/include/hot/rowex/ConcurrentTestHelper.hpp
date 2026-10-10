@@ -167,7 +167,7 @@ public:
 	}
 };
 
-template<typename ValueType> using AlreadyInsertedValuesType = tbb::concurrent_vector<std::atomic<std::vector<ValueType>*>, tbb::zero_allocator<std::atomic<std::vector<ValueType>*>>>;
+template<typename ValueType> using AlreadyInsertedValuesType = tbb::concurrent_vector<std::atomic<std::vector<ValueType>*>>;
 
 template<typename ValueType, typename ValueGenerator>
 struct Inserter {

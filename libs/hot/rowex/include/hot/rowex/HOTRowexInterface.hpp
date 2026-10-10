@@ -39,7 +39,7 @@ template<typename ValueType, template <typename> typename KeyExtractor> struct H
 
 	HOTRowexChildPointer mRoot;
 
-	EpochBasedMemoryReclamationStrategy* const mMemoryReclamation;
+	EpochBasedMemoryReclamationStrategy* /*const*/ mMemoryReclamation;
 
 	/**
 	 * Creates an empty concurrent order preserving index structure based on the HOT algorithm
